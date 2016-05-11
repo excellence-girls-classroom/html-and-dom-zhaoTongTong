@@ -1,0 +1,88 @@
+[
+  {
+    "number": "1",
+    "answer": [
+      {
+        "number": "1",
+        "answer": "统一建模语言"
+      },
+      {
+        "number": "2",
+        "answer": [
+          {
+            "answer": "继承性"
+          },
+          {
+            "answer": "分装性"
+          },
+          {
+            "answer": "多态性"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "number": "2",
+    "answer": [
+      {
+        "number": "1",
+        "answer": "A"
+      },
+      {
+        "number": "2",
+        "answer": "C"
+      }
+    ]
+  },
+  {
+    "number": "3",
+    "answer": [
+      {
+        "number": "1",
+        "answer": [
+          {
+            "answer": "A"
+          },
+          {
+            "answer": "C"
+          },
+          {
+            "answer": "D"
+          }
+          ]
+      },
+      {
+        "number": "2",
+        "answer": [
+          {
+            "answer": "A"
+          },
+          {
+            "answer": "B"
+          },
+          {
+            "answer": "D"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "number": "4",
+    "answer": [
+      {
+        "number": "1",
+        "answer": "F"
+      },
+      {
+        "number": "2",
+        "answer": "T"
+      }
+    ]
+  },
+  {
+    "number": "5",
+    "answer": "模型是对现实社会的简化和抽象，模型对所研究的系统、过程、事物或概念的一种表达形式。可以是物理实体;以是某种图形；或者是一种数学表达式。"
+  }
+]
