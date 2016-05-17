@@ -20,7 +20,6 @@ submitButton.onclick = function() {
     return false;
 }
 
-
 function xhr(inputAnswer) {
     var request = new XMLHttpRequest();
     var json = [];
@@ -38,9 +37,9 @@ function xhr(inputAnswer) {
     request.send();
 }
 
-
 function getAnswer() {
     var studentsAnswer = [];
+
     var fill_in_1_0 = document.getElementsByName('fill_in_1_0')[0].value;
     var fill_in_2_0 = document.getElementsByName('fill_in_2_0')[0].value;
     var fill_in_2_1 = document.getElementsByName('fill_in_2_1')[0].value;
@@ -97,19 +96,16 @@ function getScore(json, inputAnswer) {
         switch(i){
             case 0:
                 if(json[i].answer[0].answer === inputAnswer[i].answer[0].answer)
-                //alert(json[i].answer[0].answer);
                 score += 5;
                 for(var j = 0; j < 3; j++) {
                     if(json[i].answer[1].answer[j].answer === inputAnswer[i].answer[1].answer[j].answer)
                     score += 5;
-                    //alert(json[i].answer[1].answer[j].answer);
                 }
                 break;
             case 1:
                 for(var j = 0; j < 2; j++) {
                     if(json[i].answer[j].answer === inputAnswer[i].answer[j].answer)
                     score += 5;
-                    //alert(json[i].answer[j].answer);
                 }
                 break;
             case 2:
@@ -117,7 +113,6 @@ function getScore(json, inputAnswer) {
                     for(var j = 0; j < 3; j++){
                         if(json[i].answer[a].answer[j].answer === inputAnswer[i].answer[a].answer[j].answer)
                         score += 5;
-                        //alert(json[i].answer[a].answer[j].answer);
                     }
                 }
                 break;
@@ -125,13 +120,11 @@ function getScore(json, inputAnswer) {
                 for(var j = 0; j < 2; j++) {
                     if(json[i].answer[j].answer === inputAnswer[i].answer[j].answer)
                     score += 5;
-                    //alert(json[i].answer[j].answer);
                 }
                 break;
             default:
                 if(json[i].answer === inputAnswer[i].answer)
                 score += 5;
-                //alert(json[i].answer);
         }
     }
 
